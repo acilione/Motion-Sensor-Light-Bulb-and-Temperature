@@ -34,7 +34,7 @@ void setup()
 	pinMode(pinPIR, INPUT);
   	pinMode(A0, INPUT);
   	pinMode(A1, INPUT);
-    pinMode(red_light_pin, OUTPUT);
+	pinMode(red_light_pin, OUTPUT);
   	pinMode(green_light_pin, OUTPUT);
   	pinMode(blue_light_pin, OUTPUT);
   	attachInterrupt(digitalPinToInterrupt(pinPIR), movingStatusChanged, CHANGE);
